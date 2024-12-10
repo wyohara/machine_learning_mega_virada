@@ -1,0 +1,43 @@
+# Ignorar arquivos de bytecode compilados
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar o diretório do ambiente virtual
+env/
+venv/
+.venv/
+
+# Ignorar arquivos de configuração do ambiente
+*.env
+*.venv
+*.idea/
+*.vscode/
+
+# Ignorar arquivos de log
+*.log
+
+# ignorar arquivos de inicialização com dados criticos
+.ini
+
+# Ignorar diretórios de testes
+tests/__pycache__/
+tests/*.pyc
+
+# Ignorar arquivos temporários do sistema operacional
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignorar arquivos de cobertura de testes
+.coverage
+.coverage.*
+nosetests.xml
+test*.xml
+
+# Ignorar arquivos de banco de dados
+*.sqlite3
+
+# Ignorar o arquivo de dependências
+Pipfile.lock
+
+#ignorar outros arquivos
